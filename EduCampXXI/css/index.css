@@ -1,4 +1,28 @@
-body {
-    background-color: black;
-    color: white;
+body.encabezado {
+    background: url(../svg/Encabezado.svg) no-repeat;
+}
+
+button.btn1 {
+    background: url(../svg/INICIO.svg) no-repeat;
+    height: 46.76px;
+    width: 109.21px;
+    margin-left: 500px;
+    margin-top: 50px;
+    border: none;
+}
+
+button.btn2 {
+    background: url(../svg/NOSOTROS.svg) no-repeat;
+    height: 47.96px;
+    width: 190.21px;
+    margin-top: 50px;
+    border: none;
+}
+
+button.btn3 {
+    background: url(../svg/SERVICIOS.svg) no-repeat;
+    height: 47.96px;
+    width: 190.21px;
+    margin-top: 50px;
+    border: none;
 }
