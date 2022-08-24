@@ -2,10 +2,15 @@ body.encabezado {
     background: url(../svg/Encabezado.svg) no-repeat;
 }
 
+button {
+    margin: 20px;
+}
+
+/* Buttons */
 button.btn1 {
     background: url(../svg/INICIO.svg) no-repeat;
-    height: 46.76px;
-    width: 109.21px;
+    height: 38px;
+    width: 75.21px;
     margin-left: 500px;
     margin-top: 50px;
     border: none;
@@ -13,16 +18,65 @@ button.btn1 {
 
 button.btn2 {
     background: url(../svg/NOSOTROS.svg) no-repeat;
-    height: 47.96px;
-    width: 190.21px;
+    height: 38px;
+    width: 135.21PX;
     margin-top: 50px;
     border: none;
 }
 
 button.btn3 {
     background: url(../svg/SERVICIOS.svg) no-repeat;
-    height: 47.96px;
-    width: 190.21px;
+    height: 38px;
+    width: 126.21px;
     margin-top: 50px;
     border: none;
+}
+
+button.btn4 {
+    background: url(../svg/CONTACTO.svg) no-repeat;
+    height: 38px;
+    width: 140.21px;
+    margin-top: 50px;
+    border: none;
+}
+
+button.btn5 {
+    background: url(../svg/SIMBOLOS.svg) no-repeat;
+    height: 38px;
+    width: 123.21px;
+    margin-top: 50px;
+    border: none;
+}
+
+button.btn6 {
+    background: url(../svg/GALERIA.svg) no-repeat;
+    height: 38px;
+    width: 99.21px;
+    margin-top: 50px;
+    border: none;
+}
+
+/* Hovers */
+button.btn1:hover {
+    background: url(../svg/INICIO-ACT.svg);
+}
+
+button.btn2:hover {
+    background: url(../svg/NOSOTROS-ACT.svg);
+}
+
+button.btn3:hover {
+    background: url(../svg/SERVICIOS-ACT.svg);
+}
+
+button.btn4:hover {
+    background: url(../svg/CONTACTO-ACT.svg);
+}
+
+button.btn5:hover {
+    background: url(../svg/SIMBOLOS-ACT.svg);
+}
+
+button.btn6:hover {
+    background: url(../svg/GALERIA-ACT.svg);
 }
