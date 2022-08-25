@@ -1,82 +1,53 @@
-body.encabezado {
-    background: url(../svg/Encabezado.svg) no-repeat;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    font-family: 'Poppins';
+    margin: 0;
+}
+body {
+    background: url(../img/pattern.png) center;
+    min-height: 1000px;
 }
 
-button {
-    margin: 20px;
+/* Header */
+header {
+    background-color: #414141;
+    display: flex;
+    height: 120px;
 }
-
-/* Buttons */
-button.btn1 {
-    background: url(../svg/INICIO.svg) no-repeat;
-    height: 38px;
-    width: 75.21px;
-    margin-left: 500px;
-    margin-top: 50px;
-    border: none;
+header div.logo-title {
+    height: 120px;
+    width: 350px;
 }
-
-button.btn2 {
-    background: url(../svg/NOSOTROS.svg) no-repeat;
-    height: 38px;
-    width: 135.21PX;
-    margin-top: 50px;
-    border: none;
+ header figure.logo {
+    background: url(../img/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
 }
-
-button.btn3 {
-    background: url(../svg/SERVICIOS.svg) no-repeat;
-    height: 38px;
-    width: 126.21px;
-    margin-top: 50px;
-    border: none;
+header figure.title {
+    background: url(../img/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 0 125px;
+    padding: 15px 0;
+    width: 300px;
 }
-
-button.btn4 {
-    background: url(../svg/CONTACTO.svg) no-repeat;
-    height: 38px;
-    width: 140.21px;
-    margin-top: 50px;
-    border: none;
+/* Navegation Header*/
+header div.navegation {
+    display: flex;
+    text-align: center;
+    width: 100%;
 }
-
-button.btn5 {
-    background: url(../svg/SIMBOLOS.svg) no-repeat;
-    height: 38px;
-    width: 123.21px;
-    margin-top: 50px;
-    border: none;
+header div.navegation a {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 1.7rem;
+    margin: auto 10px;
+    text-decoration: none;
 }
-
-button.btn6 {
-    background: url(../svg/GALERIA.svg) no-repeat;
-    height: 38px;
-    width: 99.21px;
-    margin-top: 50px;
-    border: none;
-}
-
-/* Hovers */
-button.btn1:hover {
-    background: url(../svg/INICIO-ACT.svg);
-}
-
-button.btn2:hover {
-    background: url(../svg/NOSOTROS-ACT.svg);
-}
-
-button.btn3:hover {
-    background: url(../svg/SERVICIOS-ACT.svg);
-}
-
-button.btn4:hover {
-    background: url(../svg/CONTACTO-ACT.svg);
-}
-
-button.btn5:hover {
-    background: url(../svg/SIMBOLOS-ACT.svg);
-}
-
-button.btn6:hover {
-    background: url(../svg/GALERIA-ACT.svg);
+header div.navegation a:hover {
+    cursor: pointer;
+    text-decoration: 3px underline #E7C006;
 }
