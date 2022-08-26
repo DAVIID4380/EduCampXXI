@@ -39,6 +39,7 @@ header div.navegation {
     display: flex;
     text-align: center;
     width: 100%;
+    margin-left: 100px;
 }
 header div.navegation a {
     color: #fff;
@@ -49,5 +50,6 @@ header div.navegation a {
 }
 header div.navegation a:hover {
     cursor: pointer;
-    text-decoration: 3px underline #E7C006;
+    background-color: #e7c20688;
+    /* text-decoration: 3px underline #E7C006; */
 }
