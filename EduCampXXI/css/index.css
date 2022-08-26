@@ -1,30 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
-    font-family: 'Poppins';
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
 }
 
 body {
     background: url(../img//Fondo/pattern.png) center;
-    min-height: 1000px;
+    min-height: 10000px;
 }
 
 /* Header */
 header {
-    background-color: #41414133;
-    display: flex;
-    height: 120px;
-    position: absolute;
+    height: 600px;
     width: 100%;
-    z-index: 1;
+
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
-header div.logo-title {
+.navbar div.logo-title {
     height: 120px;
     width: 350px;
 }
 
- header figure.logo {
+.logo-title figure.logo {
     background: url(../img/Encabezado/Logo.png) no-repeat center;
     background-size: contain;
     float: left;
@@ -33,23 +41,22 @@ header div.logo-title {
     width: 120px;
 }
 
-header figure.title {
+.logo-title figure.title {
     background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
     background-size: contain;
     height: 120px;
-    margin: 0 125px;
-    padding: 15px 0;
+    margin: 15px 125px;
     width: 300px;
 }
 
 /* Navegation Header*/
-  header nav.navegation {
+  .navbar nav.navegation {
     background-color: #41414100;
     margin: 45px auto;
     width: 100%;
   }
 
-  header nav.navegation a {
+  .navbar nav.navegation a {
     color: #fff;
     display: inline-block;
     font-size: 1.4rem;
@@ -59,12 +66,12 @@ header figure.title {
     transition: 0.5s ease-out all;
   }
 
-  header nav.navegation a:hover {
+  .navbar nav.navegation a:hover {
     border-radius: 7px;
     border-bottom: 5px solid #E7C006;
   }
 
-  header nav div.navbar {
+  .navbar nav div.buttons {
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -72,18 +79,20 @@ header figure.title {
   }
 
 /* Carousel */
-  div.carousel {
-    width: 100%;
+  header div.carousel {
+    position: absolute;
     height: 600px;
     margin: 0 auto;
     overflow: hidden;
+    top: 0;
+    width: 100%;
   }
   
   div.carousel ul {
     display: flex;
     padding: 0;
     width: 400%;
-    animation: slide 15s infinite alternate ease-in-out;
+    animation: slide 25s infinite alternate ease-in-out;
   }
   
   div.carousel li {
