@@ -10,7 +10,8 @@ body {
 
 /* Header */
 header {
-    background-color: #414141;
+    background-color: #41414133;
+    border-bottom: 3px solid #E7C006;
     display: flex;
     height: 120px;
 }
@@ -35,21 +36,27 @@ header figure.title {
     width: 300px;
 }
 /* Navegation Header*/
-header div.navegation {
-    display: flex;
-    text-align: center;
+header nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
     width: 100%;
-    margin-left: 100px;
-}
-header div.navegation a {
+  }
+  header nav.navegation a {
     color: #fff;
-    font-family: 'Poppins';
-    font-size: 1.7rem;
-    margin: auto 10px;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
     text-decoration: none;
-}
-header div.navegation a:hover {
-    cursor: pointer;
-    background-color: #e7c20688;
-    /* text-decoration: 3px underline #E7C006; */
-}
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+  header nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  header nav div.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
