@@ -1,3 +1,4 @@
+@media (max-width: 1200px) {
 .navigation__checkbox {
   display: none;
 }
@@ -5,8 +6,8 @@
   height: 7rem;
   width: 7rem;
   position: fixed;
-  top: 10PX;
-  left: 1370px;
+  top: 10px;
+  left: 1060px;
   border-radius: 50%;
   z-index: 2000;
   text-align: center;
@@ -107,4 +108,5 @@
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg);
+}
 }
