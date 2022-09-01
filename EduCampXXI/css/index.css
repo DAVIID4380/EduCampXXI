@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 
 body {
     background: url(../img//Fondo/pattern.png) center;
-    min-height: 1000px;
+    max-height: 100%;
 }
 
 /* Header */
@@ -116,3 +116,35 @@ header div.navbar {
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
   }
+
+  /* Responsive */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}

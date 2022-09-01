@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 772px) {
 .navigation__checkbox {
   display: none;
 }
@@ -6,8 +6,8 @@
   height: 7rem;
   width: 7rem;
   position: fixed;
-  top: 10px;
-  left: 1060px;
+  top: 1px;
+  left: 630px;
   border-radius: 50%;
   z-index: 2000;
   text-align: center;
