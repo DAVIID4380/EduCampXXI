@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +48,39 @@ header div.navbar {
     width: 300px;
 }
 
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
 /* Navegation Header*/
   .navbar nav.navegation {
     background-color: #41414100;
@@ -66,6 +99,10 @@ header div.navbar {
   }
 
   .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
     border-radius: 7px;
     border-bottom: 5px solid #E7C006;
   }
@@ -117,34 +154,82 @@ header div.navbar {
     100% {margin-left: -300%;}
   }
 
-  /* Responsive */
-
-  @media only screen and (max-width: 1250px) {
-
-    .navbar nav.navegation a {
-      color: #fff;
-      display: inline-block;
-      font-size: 1.1rem;
-      text-decoration: none;
-      text-align: center;
-      transition: 0.5s ease-out all;
-    }
-  
-    .navbar nav.navegation a:hover {
-      border-radius: 7px;
-      border-bottom: 5px solid #E7C006;
-    }
-  
-    .navbar nav div.buttons {
-      display: flex;
-      justify-content: space-between;
-      margin: auto;
-    }
-
+  /* Section Content */
+  section {
+    height: 300px;
+    border: red solid;
+    margin: 30px;
   }
 
-@media only screen and (max-width: 772px) {
-  .navegation {
-    display: none !important;
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
   }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
 }
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 210px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 130px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }
