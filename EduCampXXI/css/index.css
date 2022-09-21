@@ -12,6 +12,7 @@ body {
 }
 
 /* Header */
+
 header {
   height: 600px;
   width: 100%;
@@ -81,7 +82,8 @@ header div.navbar {
 }
 
 
-/* Navegation Header*/
+/* Navegation Header */
+
   .navbar nav.navegation {
     background-color: #41414100;
     margin: 45px auto;
@@ -115,6 +117,7 @@ header div.navbar {
   }
 
 /* Carousel */
+
   header div.carousel {
     position: absolute;
     height: 600px;
@@ -155,10 +158,48 @@ header div.navbar {
   }
 
   /* Section Content */
+
   section {
-    height: 300px;
-    border: red solid;
-    margin: 30px;
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 30%;
+    background-color: #0A4080;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat;
+    width: 70px;
   }
 
   /* Footer */
