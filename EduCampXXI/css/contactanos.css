@@ -13,6 +13,7 @@ section{
     position: relative;
     display: flex;
     z-index: 2;
+  
   }
 
   ul.iconos li{
