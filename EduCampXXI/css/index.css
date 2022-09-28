@@ -195,11 +195,27 @@ header div.navbar {
     width: 20%;
     height: 35%;
     background-color: #0A4080;
+    display: inline-flex;
   }
 
   div.inf div.content_inf div.box1 figure.logo_inf {
-    background: url(../img/Encabezado/Logo.png) no-repeat;
-    width: 50px;
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 79%;
+    height: 30%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 65%;
+    background-color: orange;
+    display: flex;
   }
 
   /* Footer */
