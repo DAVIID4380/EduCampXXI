@@ -193,13 +193,13 @@ header div.navbar {
 
   div.inf div.content_inf div.box1 {
     width: 20%;
-    height: 30%;
+    height: 35%;
     background-color: #0A4080;
   }
 
-  div.inf div.content_inf div.box1 figure.logo {
+  div.inf div.content_inf div.box1 figure.logo_inf {
     background: url(../img/Encabezado/Logo.png) no-repeat;
-    width: 70px;
+    width: 50px;
   }
 
   /* Footer */
