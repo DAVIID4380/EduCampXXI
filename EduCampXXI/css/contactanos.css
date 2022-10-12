@@ -1,4 +1,4 @@
-section{
+section {
     display: flex;
     margin: 30px auto;
     align-items: center;
@@ -22,7 +22,7 @@ section{
     padding: 20px;
   }
 
-  ul.iconos li a{
+  ul.iconos li a {
     position: relative;
     width: 80px;
     height: 80px;
@@ -43,7 +43,7 @@ section{
     overflow: hidden;
   }
 
-  ul.iconos li a::before{
+  ul.iconos li a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -55,6 +55,6 @@ section{
     transition: 0.5s;
   }
 
-  ul.iconos li a:hover::before{
+  ul.iconos li a:hover::before {
     transform: skewX(45deg) translateX(-150px);
   }
