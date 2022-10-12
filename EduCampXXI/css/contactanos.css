@@ -1,60 +1,131 @@
-section {
-    display: flex;
-    margin: 30px auto;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    border: 2px solid #E7C006;
-    background:linear-gradient(to bottom, #275A96, rgb(0, 0, 0));
-    border-radius: 50px 50px;
-  }
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
-  ul.iconos {
-    position: relative;
-    display: flex;
-    z-index: 2;
-  }
 
-  ul.iconos li{
-    position: relative;
-    list-style: none;
-    margin: 10px;
-    padding: 20px;
-  }
+.contact_form {  
+  width: 780px; 
+  height: 1000px;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #f5f5f500; 
+  padding-left: 30px; 
+}
 
-  ul.iconos li a {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    border: 1px solid #E7C006;
-    border-right: 1px solid rgba(255, 255, 255, 0.604);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.726);
-    box-shadow: 0 5px 45px rgba(255, 255, 255, 0.675);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #fff;
-    border-radius: 10px;
-    text-decoration: none;
-    backdrop-filter: blur(2px);
-    transition: 0.5s;
-    overflow: hidden;
-  }
 
-  ul.iconos li a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    transform: skewX(45deg) translateX(150px);
-    transition: 0.5s;
-  }
+input{
+  background-color: #e4e4e4; 
+  width: 700px; 
+  height: 40px; 
+  border-radius: 10px;  
+  border-style: solid; 
+  border-width: 1px; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
 
-  ul.iconos li a:hover::before {
-    transform: skewX(45deg) translateX(-150px);
-  }
+
+textarea{
+  background-color: #e4e4e4; 
+  width: 700px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #275A96; 
+  border-color: white; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 700px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 40px;  
+  text-align: left; 
+  width: 500px;
+  padding-bottom: 10px; 
+  color: #275A96;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p {
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #d8ca48;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #d8ca48;
+}
+
+
+figure.popo {
+  background: url(../img/11.png) no-repeat center /contain;
+  width: 800PX;
+  height: 800px;
+  float: right;
+  margin-top: 80px;
+}
