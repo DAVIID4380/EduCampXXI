@@ -200,7 +200,7 @@ header div.navbar {
 
   div.inf div.content_inf div.box1 {
     width: 20%;
-    height: 35%;
+    height: 40%;
     background-color: #0A4080;
     display: inline-flex;
   }
@@ -212,15 +212,3005 @@ header div.navbar {
   }
 
   div.inf div.content_inf div.box2 {
-    width: 79%;
-    height: 30%;
+    width: 1350px;
+    height: 40%;
     background-color: orange;
     display: inline-block;
   }
 
   div.inf div.content_inf div.box3 {
     width: 20%;
-    height: 65%;
+    height: 59%;
+    background-color: orange;
+    display: flex;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
+  }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
+}
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 300px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 97px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  }
+  
+  body {
+      background: url(../img//Fondo/pattern.png) center;
+      max-height: 100%;
+  }
+  
+  /* Header */
+  
+  header {
+    height: 600px;
+    width: 100%;
+  }
+  header div.navbar {
+    background-color: #41414122;
+    display: flex;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbar div.logo-title {
+      height: 120px;
+      width: 350px;
+  }
+  
+  .logo-title figure.logo {
+      background: url(../img/Encabezado/Logo.png) no-repeat center;
+      background-size: contain;
+      float: left;
+      height: 120px;
+      margin: 0 4px;
+      width: 120px;
+  }
+  
+  .logo-title figure.title {
+      background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+      background-size: contain;
+      height: 120px;
+      margin: 15px 125px;
+      width: 300px;
+  }
+  
+    /* Responsive Header */
+  
+    @media only screen and (max-width: 1250px) {
+  
+      .navbar nav.navegation a {
+        color: #fff;
+        display: inline-block;
+        font-size: 1.1rem;
+        text-decoration: none;
+        text-align: center;
+        transition: 0.5s ease-out all;
+      }
+    
+      .navbar nav.navegation a:hover {
+        border-radius: 7px;
+        border-bottom: 5px solid #E7C006;
+      }
+    
+      .navbar nav div.buttons {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+      }
+  
+    }
+  
+  @media only screen and (max-width: 772px) {
+    .navegation {
+      display: none !important;
+    }
+  }
+  
+  
+  /* Navegation Header */
+  
+    .navbar nav.navegation {
+      background-color: #41414100;
+      margin: 45px auto;
+      width: 100%;
+    }
+  
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.4rem;
+      padding: 10px auto;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+    .navbar nav.navegation a.active {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      width: 75%;
+    }
+  
+  /* Carousel */
+  
+    header div.carousel {
+      position: absolute;
+      height: 600px;
+      margin: 0 auto;
+      overflow: hidden;
+      top: 0;
+      width: 100%;
+    }
+    
+    div.carousel ul {
+      display: flex;
+      padding: 0;
+      width: 400%;
+      animation: slide 25s infinite alternate ease-in-out;
+    }
+    
+    div.carousel li {
+      width: 100%;
+      list-style: none;
+    }
+    
+    div.carousel img {
+      width: 100%;
+    }
+    
+    @keyframes slide {
+      0% {margin-left: 0;}
+      20% {margin-left: 0;}
+      
+      25% {margin-left: -100%;}
+      45% {margin-left: -100%;}
+      
+      50% {margin-left: -200%;}
+      70% {margin-left: -200%;}
+      
+      75% {margin-left: -300%;}
+      100% {margin-left: -300%;}
+    }
+  
+    /* Section Content */
+  
+    section {
+      min-height: 300px;
+      border: gray solid;
+      margin: 40px 100px;
+    }
+  
+    /* Section Inf */
+  
+    div.inf h3.title_inf {
+      color: #275A96;
+      font-size: 64px;
+      font-weight: 400;
+      text-align: center;
+    }
+  
+    div.inf h3.title_cont {
+      color: #275A96;
+      font-size: 64px;
+      font-weight: 400;
+      text-align: center;
+    }
+  
+    div.inf span.line {
+      width: 14%;
+      margin: 0 auto;
+      border: 2px solid #E7C006;
+      border-radius: 50px;
+      background-color: #E7C006;
+      text-align: center;
+      display: flex;
+    }
+  
+    div.inf div.content_inf {
+      border: 1px solid blue;
+      width: 100%;
+      height: 700px;
+      margin: 30px auto;
+    }
+  
+    div.inf div.content_inf div.box1 {
+      width: 20%;
+      height: 40%;
+      background-color: #0A4080;
+      display: inline-flex;
+    }
+  
+    div.inf div.content_inf div.box1 figure.logo_inf {
+      background: url(../img/Encabezado/Logo.png) no-repeat center;
+      background-size: contain;
+      width: 1000px;
+    }
+  
+    div.inf div.content_inf div.box2 {
+      width: 1350px;
+      height: 40%;
+      background-color: orange;
+      display: inline-block;
+    }
+  
+    div.inf div.content_inf div.box3 {
+      width: 20%;
+      height: 59%;
+      background-color: orange;
+      display: flex;
+    }
+  
+    /* Footer */
+  
+    footer {
+      background-color: #414141;
+      width: 100%;
+      height: 185px;
+    }
+  
+    div figure.img_footer{
+      background: url(../img/footer/footerimg.svg) no-repeat center;
+      background-size: contain;
+      height: 179px;
+      margin: 0 60px;
+      width: 450px;
+  }
+  
+    div.info_footer {
+      position: relative;
+      float: right;
+      margin: -165px 300px;
+      font-size: 25px;
+      border-left: 4px grey solid;
+      padding-left: 97px;
+    }
+  
+    div.info_footer h3 {
+      color: #e6e6e6;
+    }
+    
+    div.info_footer p {
+      color: #ADADAD;
+    }
+  
+    div.info_footer p b {
+      color: #e6e6e6;
+    }
+  
+    div.icons_net {
+      display: flex;
+      width: 278px;
+      height: 73px;
+      float: right;
+      margin: -140px 20px;
+  
+    }
+  
+    div.icons_net a {
+      margin: 0 10px;
+    }
+  
+    div.icons_net a.facebook {
+      background: url(../img/footer/logofacebook.svg);
+      height: 71px;
+      width: 71px;
+    }
+  
+    div.icons_net a.instagram {
+      background: url(../img/footer/logoinstagram.svg);
+      height: 71px;
+      width: 71px;
+    }
+  
+    div.icons_net a.whatsapp {
+      background: url(../img/footer/logowhatsapp.svg);
+      height: 71px;
+      width: 71px;
+    }
+  
+    footer h5.developers {
+      float: right;
+      color: #fff4;
+      margin:-14px 8px;
+    }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: url(../img//Fondo/pattern.png) center;
+    max-height: 100%;
+}
+
+/* Header */
+
+header {
+  height: 600px;
+  width: 100%;
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar div.logo-title {
+    height: 120px;
+    width: 350px;
+}
+
+.logo-title figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
+}
+
+.logo-title figure.title {
+    background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 15px 125px;
+    width: 300px;
+}
+
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
+/* Navegation Header */
+
+  .navbar nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
+    width: 100%;
+  }
+
+  .navbar nav.navegation a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+
+  .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+
+  .navbar nav div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
+
+/* Carousel */
+
+  header div.carousel {
+    position: absolute;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  
+  div.carousel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  div.carousel img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  /* Section Content */
+
+  section {
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf h3.title_cont {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 40%;
+    background-color: #0A4080;
+    display: inline-flex;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo_inf {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 1350px;
+    height: 40%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 59%;
+    background-color: orange;
+    display: flex;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
+  }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
+}
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 300px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 97px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: url(../img//Fondo/pattern.png) center;
+    max-height: 100%;
+}
+
+/* Header */
+
+header {
+  height: 600px;
+  width: 100%;
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar div.logo-title {
+    height: 120px;
+    width: 350px;
+}
+
+.logo-title figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
+}
+
+.logo-title figure.title {
+    background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 15px 125px;
+    width: 300px;
+}
+
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
+/* Navegation Header */
+
+  .navbar nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
+    width: 100%;
+  }
+
+  .navbar nav.navegation a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+
+  .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+
+  .navbar nav div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
+
+/* Carousel */
+
+  header div.carousel {
+    position: absolute;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  
+  div.carousel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  div.carousel img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  /* Section Content */
+
+  section {
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf h3.title_cont {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 40%;
+    background-color: #0A4080;
+    display: inline-flex;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo_inf {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 1350px;
+    height: 40%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 59%;
+    background-color: orange;
+    display: flex;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
+  }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
+}
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 300px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 97px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: url(../img//Fondo/pattern.png) center;
+    max-height: 100%;
+}
+
+/* Header */
+
+header {
+  height: 600px;
+  width: 100%;
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar div.logo-title {
+    height: 120px;
+    width: 350px;
+}
+
+.logo-title figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
+}
+
+.logo-title figure.title {
+    background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 15px 125px;
+    width: 300px;
+}
+
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
+/* Navegation Header */
+
+  .navbar nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
+    width: 100%;
+  }
+
+  .navbar nav.navegation a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+
+  .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+
+  .navbar nav div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
+
+/* Carousel */
+
+  header div.carousel {
+    position: absolute;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  
+  div.carousel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  div.carousel img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  /* Section Content */
+
+  section {
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf h3.title_cont {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 40%;
+    background-color: #0A4080;
+    display: inline-flex;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo_inf {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 1350px;
+    height: 40%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 59%;
+    background-color: orange;
+    display: flex;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
+  }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
+}
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 300px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 97px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: url(../img//Fondo/pattern.png) center;
+    max-height: 100%;
+}
+
+/* Header */
+
+header {
+  height: 600px;
+  width: 100%;
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar div.logo-title {
+    height: 120px;
+    width: 350px;
+}
+
+.logo-title figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
+}
+
+.logo-title figure.title {
+    background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 15px 125px;
+    width: 300px;
+}
+
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
+/* Navegation Header */
+
+  .navbar nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
+    width: 100%;
+  }
+
+  .navbar nav.navegation a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+
+  .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+
+  .navbar nav div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
+
+/* Carousel */
+
+  header div.carousel {
+    position: absolute;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  
+  div.carousel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  div.carousel img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  /* Section Content */
+
+  section {
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf h3.title_cont {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 40%;
+    background-color: #0A4080;
+    display: inline-flex;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo_inf {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 1350px;
+    height: 40%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 59%;
+    background-color: orange;
+    display: flex;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
+  }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
+}
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 300px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 97px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: url(../img//Fondo/pattern.png) center;
+    max-height: 100%;
+}
+
+/* Header */
+
+header {
+  height: 600px;
+  width: 100%;
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar div.logo-title {
+    height: 120px;
+    width: 350px;
+}
+
+.logo-title figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
+}
+
+.logo-title figure.title {
+    background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 15px 125px;
+    width: 300px;
+}
+
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
+/* Navegation Header */
+
+  .navbar nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
+    width: 100%;
+  }
+
+  .navbar nav.navegation a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+
+  .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+
+  .navbar nav div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
+
+/* Carousel */
+
+  header div.carousel {
+    position: absolute;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  
+  div.carousel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  div.carousel img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  /* Section Content */
+
+  section {
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf h3.title_cont {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 40%;
+    background-color: #0A4080;
+    display: inline-flex;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo_inf {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 1350px;
+    height: 40%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 59%;
+    background-color: orange;
+    display: flex;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
+  }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
+}
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 300px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 97px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: url(../img//Fondo/pattern.png) center;
+    max-height: 100%;
+}
+
+/* Header */
+
+header {
+  height: 600px;
+  width: 100%;
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar div.logo-title {
+    height: 120px;
+    width: 350px;
+}
+
+.logo-title figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
+}
+
+.logo-title figure.title {
+    background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 15px 125px;
+    width: 300px;
+}
+
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
+/* Navegation Header */
+
+  .navbar nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
+    width: 100%;
+  }
+
+  .navbar nav.navegation a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+
+  .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+
+  .navbar nav div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
+
+/* Carousel */
+
+  header div.carousel {
+    position: absolute;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  
+  div.carousel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  div.carousel img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  /* Section Content */
+
+  section {
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf h3.title_cont {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 40%;
+    background-color: #0A4080;
+    display: inline-flex;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo_inf {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 1350px;
+    height: 40%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 59%;
+    background-color: orange;
+    display: flex;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
+  }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
+}
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 300px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 97px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: url(../img//Fondo/pattern.png) center;
+    max-height: 100%;
+}
+
+/* Header */
+
+header {
+  height: 600px;
+  width: 100%;
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar div.logo-title {
+    height: 120px;
+    width: 350px;
+}
+
+.logo-title figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
+}
+
+.logo-title figure.title {
+    background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 15px 125px;
+    width: 300px;
+}
+
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
+/* Navegation Header */
+
+  .navbar nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
+    width: 100%;
+  }
+
+  .navbar nav.navegation a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+
+  .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+
+  .navbar nav div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
+
+/* Carousel */
+
+  header div.carousel {
+    position: absolute;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  
+  div.carousel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  div.carousel img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  /* Section Content */
+
+  section {
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf h3.title_cont {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 40%;
+    background-color: #0A4080;
+    display: inline-flex;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo_inf {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 1350px;
+    height: 40%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 59%;
+    background-color: orange;
+    display: flex;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
+  }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
+}
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 300px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 97px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: url(../img//Fondo/pattern.png) center;
+    max-height: 100%;
+}
+
+/* Header */
+
+header {
+  height: 600px;
+  width: 100%;
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar div.logo-title {
+    height: 120px;
+    width: 350px;
+}
+
+.logo-title figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
+}
+
+.logo-title figure.title {
+    background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 15px 125px;
+    width: 300px;
+}
+
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
+/* Navegation Header */
+
+  .navbar nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
+    width: 100%;
+  }
+
+  .navbar nav.navegation a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+
+  .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+
+  .navbar nav div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
+
+/* Carousel */
+
+  header div.carousel {
+    position: absolute;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  
+  div.carousel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  div.carousel img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  /* Section Content */
+
+  section {
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf h3.title_cont {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 40%;
+    background-color: #0A4080;
+    display: inline-flex;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo_inf {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 1350px;
+    height: 40%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 59%;
+    background-color: orange;
+    display: flex;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #414141;
+    width: 100%;
+    height: 185px;
+  }
+
+  div figure.img_footer{
+    background: url(../img/footer/footerimg.svg) no-repeat center;
+    background-size: contain;
+    height: 179px;
+    margin: 0 60px;
+    width: 450px;
+}
+
+  div.info_footer {
+    position: relative;
+    float: right;
+    margin: -165px 300px;
+    font-size: 25px;
+    border-left: 4px grey solid;
+    padding-left: 97px;
+  }
+
+  div.info_footer h3 {
+    color: #e6e6e6;
+  }
+  
+  div.info_footer p {
+    color: #ADADAD;
+  }
+
+  div.info_footer p b {
+    color: #e6e6e6;
+  }
+
+  div.icons_net {
+    display: flex;
+    width: 278px;
+    height: 73px;
+    float: right;
+    margin: -140px 20px;
+
+  }
+
+  div.icons_net a {
+    margin: 0 10px;
+  }
+
+  div.icons_net a.facebook {
+    background: url(../img/footer/logofacebook.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.instagram {
+    background: url(../img/footer/logoinstagram.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  div.icons_net a.whatsapp {
+    background: url(../img/footer/logowhatsapp.svg);
+    height: 71px;
+    width: 71px;
+  }
+
+  footer h5.developers {
+    float: right;
+    color: #fff4;
+    margin:-14px 8px;
+  }@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: url(../img//Fondo/pattern.png) center;
+    max-height: 100%;
+}
+
+/* Header */
+
+header {
+  height: 600px;
+  width: 100%;
+}
+header div.navbar {
+  background-color: #41414122;
+  display: flex;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar div.logo-title {
+    height: 120px;
+    width: 350px;
+}
+
+.logo-title figure.logo {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    float: left;
+    height: 120px;
+    margin: 0 4px;
+    width: 120px;
+}
+
+.logo-title figure.title {
+    background: url(../img/Encabezado/nombre-colegio.svg) no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 15px 125px;
+    width: 300px;
+}
+
+  /* Responsive Header */
+
+  @media only screen and (max-width: 1250px) {
+
+    .navbar nav.navegation a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: 0.5s ease-out all;
+    }
+  
+    .navbar nav.navegation a:hover {
+      border-radius: 7px;
+      border-bottom: 5px solid #E7C006;
+    }
+  
+    .navbar nav div.buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+  }
+
+@media only screen and (max-width: 772px) {
+  .navegation {
+    display: none !important;
+  }
+}
+
+
+/* Navegation Header */
+
+  .navbar nav.navegation {
+    background-color: #41414100;
+    margin: 45px auto;
+    width: 100%;
+  }
+
+  .navbar nav.navegation a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out all;
+  }
+
+  .navbar nav.navegation a:hover {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+  .navbar nav.navegation a.active {
+    border-radius: 7px;
+    border-bottom: 5px solid #E7C006;
+  }
+
+  .navbar nav div.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+  }
+
+/* Carousel */
+
+  header div.carousel {
+    position: absolute;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  
+  div.carousel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  div.carousel img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  /* Section Content */
+
+  section {
+    min-height: 300px;
+    border: gray solid;
+    margin: 40px 100px;
+  }
+
+  /* Section Inf */
+
+  div.inf h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf h3.title_cont {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.inf span.line {
+    width: 14%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
+  }
+
+  div.inf div.content_inf {
+    border: 1px solid blue;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+  }
+
+  div.inf div.content_inf div.box1 {
+    width: 20%;
+    height: 40%;
+    background-color: #0A4080;
+    display: inline-flex;
+  }
+
+  div.inf div.content_inf div.box1 figure.logo_inf {
+    background: url(../img/Encabezado/Logo.png) no-repeat center;
+    background-size: contain;
+    width: 1000px;
+  }
+
+  div.inf div.content_inf div.box2 {
+    width: 1350px;
+    height: 40%;
+    background-color: orange;
+    display: inline-block;
+  }
+
+  div.inf div.content_inf div.box3 {
+    width: 20%;
+    height: 59%;
     background-color: orange;
     display: flex;
   }
