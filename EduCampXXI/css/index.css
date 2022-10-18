@@ -161,7 +161,7 @@ header div.navbar {
 
   section {
     min-height: 300px;
-    border: gray solid;
+    border: rgb(128, 128, 128) solid;
     margin: 40px 100px;
   }
 
@@ -3151,7 +3151,7 @@ header div.navbar {
 
   section {
     min-height: 300px;
-    border: gray solid;
+    border: #275A96 solid;
     margin: 40px 100px;
   }
 

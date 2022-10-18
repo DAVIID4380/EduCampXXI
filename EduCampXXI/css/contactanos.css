@@ -124,8 +124,10 @@ p {
 
 figure.popo {
   background: url(../img/imgp.jpg) no-repeat center /contain;
-  width: 800PX;
-  height: 800px;
+  width: 640PX;
+  height: 799px;
   float: right;
-  margin-top: 80px;
+  margin-top: 100px;
+  margin-right: 140px;
+  border: 3px solid #cd2c11;
 }
