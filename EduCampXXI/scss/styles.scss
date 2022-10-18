@@ -7,15 +7,6 @@ $bg: #4ECDC4;
   box-sizing: border-box;
 }
 
-body {
-  background: linear-gradient(to right, mediumpurple, lightsalmon);
-}
-
-.title {
-  text-align: center;
-  color: $darkWhite;
-}
-
 .calendar{
   background: $bg;
   width: 80%;
