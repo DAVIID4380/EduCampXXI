@@ -15,7 +15,7 @@
 
 input{
   background-color: #e4e4e4; 
-  width: 700px; 
+  width: 650px; 
   height: 40px; 
   border-radius: 10px;  
   border-style: solid; 
@@ -28,7 +28,7 @@ input{
 
 textarea{
   background-color: #e4e4e4; 
-  width: 700px; 
+  width: 650px; 
   height: 150px; 
   border-radius: 5px;  
   border-style: solid; 
@@ -57,7 +57,7 @@ button{
   border-color: white; 
   border-style: solid; 
   border-radius: 10px;  
-  width: 700px;   
+  width: 650px;   
   cursor: pointer;
 }
 
@@ -139,11 +139,10 @@ p {
 
 
 figure.inf_img {
-  background: url(../img/imgp.jpg) no-repeat center /contain;
-  width: 640PX;
-  height: 799px;
+  background: url(../img/imgp.jpg) no-repeat center;
+  background-size: cover;
+  width: 600px;
+  height: 800px;
   float: right;
   margin-top: 100px;
-  margin-right: 140px;
-  border: 3px solid #cd2c11;
 }
