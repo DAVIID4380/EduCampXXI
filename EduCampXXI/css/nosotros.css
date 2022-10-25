@@ -12,3 +12,13 @@ h1{
     text-align: left;
     margin: 80px;
   }
+
+  figure.mision_img {
+    background: url(../img/nosotros/figure1.jfif) no-repeat center /contain;
+    width: 585PX;
+    height: 395px;
+    float: right;
+    margin-top: -405px;
+    margin-right: 70px;
+    border: 3px solid #cd2c11;
+  }
