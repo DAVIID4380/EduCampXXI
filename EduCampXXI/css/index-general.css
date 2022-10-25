@@ -115,7 +115,13 @@ header div.navbar {
     margin: auto;
     width: 75%;
   }
+  /* Section */
 
+  section {
+    border: 2px solid blue;
+    min-height: 500px;
+    margin: 40px 100px;
+  }
   /* Footer */
 
   footer {
