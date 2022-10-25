@@ -16,14 +16,13 @@
     margin: 80px;
   }
 
-  figure.mision_img1 {
+  figure.figure_img1 {
     background: url(../img/nosotros/figure1.jpeg) no-repeat center /contain;
     width: 585PX;
     height: 395px;
     float: right;
     margin-top: -550px;
     margin-right: 70px;
-    border: 3px solid #cd2c11;
   }
 
   /* HORIZONTE INSTITUCIONAL */
@@ -47,11 +46,64 @@
     margin-right: 70px;
   }
 
-  figure.mision_img2 {
+  figure.figure_img2 {
     background: url(../img/nosotros/figure2.jpeg) no-repeat center /contain;
     width: 583px;
     height: 390px;
     margin: 100px;
-    
-    border: 3px solid #cd2c11;
   }
+
+  /* VISIÓN */
+
+  h1.vision {
+    font-size: 40px;  
+    text-align: center; 
+    margin: 80PX;
+    width: 700px;
+    padding-bottom: 10px; 
+    color: #275A96;
+  }
+
+  p.vision_text {
+    width: 800px;
+    text-align: left;
+    margin: 80px;
+  }
+
+  figure.figure_img3 {
+    background: url(../img/nosotros/figure3.png) no-repeat center /contain;
+    width: 585PX;
+    height: 368px;
+    float: right;
+    margin-top: -340px;
+    margin-right: 70px;
+  }
+
+    /* MISIÓN */
+
+  h1.mision {
+    font-size: 40px;  
+    float: right;
+    text-align: center; 
+    width: 700px;
+    padding-bottom: 10px; 
+    color: #275A96;
+    margin-top: -500px;
+    margin-right: 150px;
+  }
+
+  p.mision_text {
+    width: 800px;
+    text-align: left;
+    float: right;
+    margin-top: -400px;
+    margin-right: 70px;
+  }
+
+  figure.figure_img4 {
+    background: url(../img/nosotros/figure4.png) no-repeat center /contain;
+    width: 583px;
+    height: 390px;
+    margin: 100px;
+  }
+  
