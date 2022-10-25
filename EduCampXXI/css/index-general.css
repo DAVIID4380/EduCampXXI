@@ -119,10 +119,10 @@ header div.navbar {
 
   section {
     border: 2px solid blue;
-    min-height: 500px;
+    min-height: 1000px;
     margin: 40px 100px;
   }
-  
+
   /* Footer */
 
   footer {
