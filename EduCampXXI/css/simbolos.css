@@ -1,0 +1,14 @@
+figure.simb {
+    background: url(../img/bandera.jpg) no-repeat center /contain;
+    width: 400px;
+    height: 400px;
+    margin: 0px 150px ;
+    display: inline-block;
+}
+figure.simbolo_logo {
+    background: url(../img/Logo\ Oficial.png) no-repeat center /contain;
+    width: 400px;
+    height: 400px;
+    margin: 0px 205px ;
+    display: inline-block;
+}
