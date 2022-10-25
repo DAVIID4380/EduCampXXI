@@ -1064,6 +1064,13 @@ header div.navbar {
 
   /* Section Inf */
 
+  h3.title_inf {
+    color: #275A96;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
   div.inf h3.title_inf {
     color: #275A96;
     font-size: 64px;
@@ -1076,6 +1083,16 @@ header div.navbar {
     font-size: 64px;
     font-weight: 400;
     text-align: center;
+  }
+
+  span.line {
+    width: 5%;
+    margin: 0 auto;
+    border: 2px solid #E7C006;
+    border-radius: 50px;
+    background-color: #E7C006;
+    text-align: center;
+    display: flex;
   }
 
   div.inf span.line {
