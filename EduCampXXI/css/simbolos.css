@@ -12,3 +12,32 @@ figure.simbolo_logo {
     margin: 0px 205px ;
     display: inline-block;
 }
+div.simbolo {
+    display: inline-block;
+    width: 600px;
+    text-align: justify;
+}
+section.simbolo {
+    display: inline-block;
+    width: 600px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.082);
+    border-bottom: 5px solid;
+    border-color: blue;
+}
+div.simbolo h1 {
+    color: mediumblue;
+    background-size: cover;
+}
+div.simbolo h3.green {
+    color: green;
+}
+div.simbolo h3.yellow {
+    color: yellow;
+}
+div.simbolo h3.white {
+    color: white;
+}
