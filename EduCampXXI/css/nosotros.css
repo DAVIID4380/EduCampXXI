@@ -33,7 +33,7 @@ h3.title_inf {
   }
 
   figure.figure_img1 {
-    background: url(../img/nosotros/figure1.jpeg) no-repeat center /contain;
+    background: url(../img/nosotros/filosofia.png) no-repeat center /contain;
     width: 585PX;
     height: 395px;
     float: right;
@@ -63,7 +63,7 @@ h3.title_inf {
   }
 
   figure.figure_img2 {
-    background: url(../img/nosotros/figure2.jpeg) no-repeat center /contain;
+    background: url(../img/nosotros/horizonte.png) no-repeat center /contain;
     width: 583px;
     height: 390px;
     margin: 100px;
