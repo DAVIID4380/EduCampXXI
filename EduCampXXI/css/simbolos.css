@@ -2,15 +2,16 @@ figure.simb {
     background: url(../img/bandera.jpg) no-repeat center /contain;
     width: 400px;
     height: 400px;
-    margin: 0px 150px ;
+    margin: -40px 110px;
     display: inline-block;
 }
 figure.simbolo_logo {
     background: url(../img/Logo\ Oficial.png) no-repeat center /contain;
-    width: 400px;
+    width: 300px;
     height: 400px;
-    margin: 0px 205px ;
-    display: inline-block;
+    margin-right: 100px;
+    margin-top: -500px;
+    float: right;
 }
 div.simbolo {
     display: inline-block;
@@ -18,15 +19,15 @@ div.simbolo {
     text-align: justify;
 }
 section.simbolo {
-    display: inline-block;
     width: 600px;
     text-align: justify;
-    margin-top: 100px;
-    margin-left: 200px;
-    border: none;
+    margin-left: -30px;
+    float: initial;
+    border: 1px solid black;
     background-color: rgba(0, 0, 0, 0.082);
     border-bottom: 5px solid;
-    border-color: blue;
+    border-radius: 10px;
+    padding: 10px;
 }
 div.simbolo h1 {
     color: mediumblue;
@@ -35,9 +36,18 @@ div.simbolo h1 {
 div.simbolo h3.green {
     color: green;
 }
+div.simbolo p.green:hover {
+    color: green;
+}
 div.simbolo h3.yellow {
     color: yellow;
 }
+div.simbolo p.yellow:hover {
+    color: yellow;
+}
 div.simbolo h3.white {
+    color: white;
+}
+div.simbolo p.white:hover {
     color: white;
 }
