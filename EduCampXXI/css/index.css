@@ -166,7 +166,7 @@ header div.navbar {
 
   /* Section Inf */
 
-  div.inf h3.title_inf {
+  h3.title_inf {
     color: #275A96;
     font-size: 64px;
     font-weight: 400;
@@ -180,7 +180,7 @@ header div.navbar {
     text-align: center;
   }
 
-  div.inf span.line {
+  span.line {
     width: 14%;
     margin: 0 auto;
     border: 2px solid #E7C006;
@@ -296,4 +296,35 @@ header div.navbar {
     float: right;
     color: #fff4;
     margin:-14px 8px;
+  }
+
+  /* Experiencias */
+
+  figure.video1 {
+    background: url(../img/Experiencias/Video1.jpg) no-repeat center /contain;
+    width: 400px;
+    height: 500px;
+  }
+
+  figure.video2 {
+    background: url(../img/Experiencias/Video2.jpg) no-repeat center;
+    width: 100px;
+  }
+
+  figure.video3 {
+    background: url(../img/Experiencias/Video3.jpg) no-repeat center;
+    background-size: contain;
+    width: 100px;
+  }
+
+  figure.video4 {
+    background: url(../img/Experiencias/Video4.jpg) no-repeat center;
+    background-size: contain;
+    width: 100px;
+  }
+
+  figure.video5 {
+    background: url(../img/Experiencias/Video5.jpg) no-repeat center;
+    background-size: contain;
+    width: 100px;
   }

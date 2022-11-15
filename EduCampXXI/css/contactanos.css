@@ -1,7 +1,6 @@
 /* Importación de fuentes de google fonts */ 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
-
 .contact_form {  
   width: 780px; 
   height: 1000px;
@@ -11,7 +10,6 @@
   background-color: #f5f5f500; 
   padding-left: 30px; 
 }
-
 
 input{
   background-color: #e4e4e4; 
@@ -141,9 +139,9 @@ p {
 
 figure.inf_img {
   background: url(../img/imgp.jpg) no-repeat center;
-  background-size: cover;
+  background-size: contain;
   width: 600px;
   height: 800px;
   float: right;
-  margin-top: 100px;
+  margin: 100px;
 }
